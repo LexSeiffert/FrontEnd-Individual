@@ -1,0 +1,46 @@
+h1{
+    color: brown;
+}
+
+span{
+    color: blue;
+}
+
+header{
+    border: 5px solid black;
+    background-color: aquamarine;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+header h1{
+    background-color: coral;
+    height: 200px;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color: rgb(78, 16, 16);
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.navbar :hover{
+    background-color: lightgray;
+    width: 150px;
+}
+
+.active{
+    background-color: darkblue;
+}
