@@ -1,9 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    background-color: aliceblue;
+    margin: auto;
+    padding: 64px;
 }
 
-h1{
-    color: blue;
+p{
+    font-size: 21px;
+}
+
+img{
+    width: 200px;
+    float: left;
 }
