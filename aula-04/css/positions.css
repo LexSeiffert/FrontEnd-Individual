@@ -1,0 +1,38 @@
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    padding: 16px;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.static{
+    background-color: blue;
+}
+
+.relative{
+    background-color: red;
+    position: relative;
+    top: -86px;
+    left: 50px;
+}
+
+.absolute{
+    background-color: brown;
+}
