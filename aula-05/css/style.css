@@ -40,3 +40,24 @@ h1 {
     background-color: rgb(26, 34, 86);
     color: rgb(42, 255, 219);
   }
+
+  .grid{
+    border: 8px dotted red;
+    padding: 8px  16px;
+  }
+
+  .my-grid{
+    border: 8px dotted red;
+    padding: 8px  16px;
+  }
+
+  .my-row{
+    border: 3px solid rgb(27, 24, 24);
+    padding: 8px  16px;
+  }
+
+  .my-row .col{
+    border: 3px dotted rgb(183, 156, 156);
+  }
+
+  
