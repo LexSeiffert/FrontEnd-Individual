@@ -1,63 +1,60 @@
 /* XS - EXTRA SMALL - <576px */
 h1 {
-    color: red;
-  }
-  
-  /* SM - SMALL - 576px ~ 768px*/
-  @media (min-width: 576px) {
-    h1 {
-      color: blue;
-    }
-  }
-  
-  /* MD - medium - 768px ~ 992px*/
-  @media (min-width: 768px) {
-    h1 {
-      color: orange;
-    }
-  }
-  
-  /* LG - LARGE - 768px ~ 992px*/
-  @media (min-width: 992px) {
-    h1 {
-      color: blue;
-    }
-  }
-  
-  /* xl - extra large - 768px ~ 992px */
-  @media (min-width: 1200px) {
-    h1 {
-      color: green;
-    }
-  }
+  color: red;
+}
 
-  .container{
-    background-color: grey;
-    color: white;
+/* SM - SMALL - 576px ~ 768px*/
+@media (min-width: 576px) {
+  h1 {
+    color: blue;
   }
+}
 
-  .container-fluid{
-    background-color: rgb(26, 34, 86);
-    color: rgb(42, 255, 219);
+/* MD - medium - 768px ~ 992px*/
+@media (min-width: 768px) {
+  h1 {
+    color: orange;
   }
+}
 
-  .grid{
-    border: 8px dotted red;
-    padding: 8px  16px;
+/* LG - LARGE - 992px ~ 1200px*/
+@media (min-width: 992px) {
+  h1 {
+    color: blue;
   }
+}
 
-  .my-grid{
-    border: 8px dotted red;
-    padding: 8px  16px;
+/* xl - extra large - 1200px ~ 1400px */
+@media (min-width: 1200px) {
+  h1 {
+    color: green;
   }
+}
 
-  .my-row{
-    border: 3px solid rgb(27, 24, 24);
-    padding: 8px  16px;
-  }
+.container {
+  background-color: rgb(120, 116, 116);
+  color: white;
+}
 
-  .my-row .col{
-    border: 3px dotted rgb(183, 156, 156);
-  }
+.container-fluid {
+  background-color: rgb(97, 115, 40);
+  color: white;
+}
 
-  
+.my-grid {
+  border: 5px dotted rgb(144, 5, 5);
+  padding: 8px 16px;
+}
+
+.my-row {
+  border: 3px solid rgb(39, 37, 37);
+  padding: 8px 16px;
+  margin-bottom: 6px;
+}
+
+.my-row .col,
+.col-8,
+.col-3,
+.col-9 {
+  border: 3px dashed rgb(18, 49, 25);
+}
